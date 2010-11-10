@@ -1,0 +1,10 @@
+WLprinter server
+================
+
+Installation:
+
+- create a directory "spool" and give the webserver exclusive read and write access to it
+- copy etc/apache2/wprinter-httpd.conf to your webserver's virtual host directory
+- add it to the server configuration
+- restart the webserver
+- integrate sql-ledger with sl-install.pl or by installing the "wlprinter" branch of ledger123
